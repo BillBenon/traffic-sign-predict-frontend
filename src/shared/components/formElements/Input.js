@@ -1,6 +1,7 @@
 import React, { useReducer, useEffect } from 'react';
+import TextField from '@material-ui/core/TextField';
 
-import { validate } from '../../util/validators';
+import { validate } from '../../utils/validators';
 import './Input.css';
 
 const inputReducer = (state, action) => {
@@ -51,28 +52,36 @@ const Input = props => {
 
     const element =
         props.element === 'input' ? (
-            <input
+            <TextField
                 id={props.id}
                 type={props.type}
                 placeholder={props.placeholder}
                 onChange={changeHandler}
                 onBlur={touchHandler}
                 value={inputState.value}
+                variant="outlined"
+                label={props.label}
+                fullWidth
             />
         ) : (
-            <textarea
+            <TextField
                 id={props.id}
+                type={props.type}
+                label={props.label}
+                multiline
                 rows={props.rows || 3}
+                variant="outlined"
                 onChange={changeHandler}
                 onBlur={touchHandler}
                 value={inputState.value}
+                fullWidth
             />
         );
 
     return <div className={`form-control ${!inputState.isValid && inputState.isTouched && 'form-control--invalid'}`}>
-        <label htmlFor={props.id}>{props.label}</label>
+        {/* <label htmlFor={props.id}>{props.label}</label> */}
         {element}
-        {!inputState.isValid && inputState.isTouched && <p>{props.errorText}</p>}
+        {!inputState.isValid && inputState.isTouched && <p><small>{props.errorText}</small></p>}
     </div>
 };
 

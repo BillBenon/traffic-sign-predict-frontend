@@ -1,3 +1,34 @@
+.upper-header {
+    background-color: white;
+    width: 100%;
+    display: block;
+    height: 3.5rem;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 5;
+}
+.left {
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.left p {
+    padding-left: 5%;
+}
+.left p span {
+    color: #5652B4;
+    font-weight: 600;
+}
+.right {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+.right * {
+    padding: 0 5px;
+}
+
 .main-navigation__menu-btn {
     width: 3rem;
     height: 3rem;
@@ -33,12 +64,14 @@
 .main-navigation__drawer-nav {
     height: 100%;
 }
-  
+
 @media (min-width: 768px) {
+    .right {
+        margin: 10px 55px 0 0;
+    }
     .main-navigation__menu-btn {
       display: none;
     }
-  
     .main-navigation__header-nav {
       display: block;
     }

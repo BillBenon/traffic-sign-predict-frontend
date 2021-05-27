@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 // import HomeSvg from '../../'
-import {HomeSvg, TestSvg, FeedbackSvg} from "../../../assets/svgs/svgs"
+import {HomeSvg, TestSvg, FeedbackSvg, LineSvg} from "../../../assets/svgs/svgs"
 import './NavLinks.css';
 
 const NavLinks = props => {
@@ -12,9 +12,11 @@ const NavLinks = props => {
             <li>
                 <NavLink to="/" exact><div><i><HomeSvg /></i><p>Home</p></div></NavLink>
             </li>
+            <LineSvg />
             <li>
                 <NavLink to="/test"><div><i><TestSvg /></i><p>Test the app</p></div></NavLink>
             </li>
+            <LineSvg />
             <li>
                 <NavLink to="/feedback"><div><i><FeedbackSvg /></i><p>Provide feedback</p></div></NavLink>
             </li>

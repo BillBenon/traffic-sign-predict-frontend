@@ -34,7 +34,7 @@ export const CallSvg = () =>{
 
 export const FacebookSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="9.641" height="18" viewBox="0 0 9.641 18">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25.069" height="21.209" viewBox="0 0 9.641 18">
             <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.618,10.125l.5-3.258H7.992V4.753a1.629,1.629,0,0,1,1.837-1.76H11.25V.22A17.329,17.329,0,0,0,8.728,0C6.153,0,4.471,1.56,4.471,4.385V6.867H1.609v3.258H4.471V18H7.992V10.125Z" transform="translate(-1.609)" fill="#c9c9c9"/>
         </svg>
     );
@@ -42,7 +42,7 @@ export const FacebookSvg = () =>{
 
 export const FeedbackSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="21" viewBox="0 0 18 18">
             <path id="Icon_material-feedback" data-name="Icon material-feedback" d="M19.2,3H4.8A1.8,1.8,0,0,0,3.009,4.8L3,21l3.6-3.6H19.2A1.805,1.805,0,0,0,21,15.6V4.8A1.805,1.805,0,0,0,19.2,3ZM12.9,13.8H11.1V12h1.8Zm0-3.6H11.1V6.6h1.8Z" transform="translate(-3 -3)" fill="#fff"/>
         </svg>
     );
@@ -50,7 +50,7 @@ export const FeedbackSvg = () =>{
 
 export const GithubSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="20.012" height="21.017" viewBox="0 0 20.012 21.017">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25.069" height="21.209" viewBox="0 0 20.012 21.017">
             <path id="Icon_feather-github" data-name="Icon feather-github" d="M8.992,16.892c-4.28,1.284-4.28-2.14-5.992-2.568M14.985,19.46V16.147a2.885,2.885,0,0,0-.8-2.234c2.688-.3,5.513-1.318,5.513-5.992a4.656,4.656,0,0,0-1.283-3.21,4.34,4.34,0,0,0-.078-3.228s-1.01-.3-3.347,1.267a11.454,11.454,0,0,0-5.992,0C6.655,1.183,5.645,1.483,5.645,1.483A4.34,4.34,0,0,0,5.568,4.71,4.657,4.657,0,0,0,4.284,7.946c0,4.64,2.825,5.658,5.513,5.992a2.885,2.885,0,0,0-.8,2.209V19.46" transform="translate(-1.181 0.057)" fill="none" stroke="#c9c9c9" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3"/>
         </svg>
     );
@@ -58,7 +58,7 @@ export const GithubSvg = () =>{
 
 export const InstagramSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="18.004" height="18" viewBox="0 0 18.004 18">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25.069" height="21.209" viewBox="0 0 18.004 18">
             <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M9,6.623a4.615,4.615,0,1,0,4.615,4.615A4.608,4.608,0,0,0,9,6.623Zm0,7.615a3,3,0,1,1,3-3,3.006,3.006,0,0,1-3,3Zm5.88-7.8A1.076,1.076,0,1,1,13.8,5.358,1.074,1.074,0,0,1,14.879,6.434Zm3.057,1.092a5.327,5.327,0,0,0-1.454-3.772A5.362,5.362,0,0,0,12.71,2.3c-1.486-.084-5.94-.084-7.427,0a5.354,5.354,0,0,0-3.772,1.45A5.344,5.344,0,0,0,.058,7.522c-.084,1.486-.084,5.94,0,7.427A5.327,5.327,0,0,0,1.512,18.72a5.369,5.369,0,0,0,3.772,1.454c1.486.084,5.94.084,7.427,0a5.327,5.327,0,0,0,3.772-1.454,5.362,5.362,0,0,0,1.454-3.772c.084-1.486.084-5.936,0-7.423Zm-1.92,9.017A3.038,3.038,0,0,1,14.3,18.255c-1.185.47-4,.361-5.306.361s-4.125.1-5.306-.361a3.038,3.038,0,0,1-1.711-1.711c-.47-1.185-.361-4-.361-5.306s-.1-4.125.361-5.306A3.038,3.038,0,0,1,3.693,4.221c1.185-.47,4-.361,5.306-.361s4.125-.1,5.306.361a3.038,3.038,0,0,1,1.711,1.711c.47,1.185.361,4,.361,5.306S16.486,15.363,16.016,16.544Z" transform="translate(0.005 -2.238)" fill="#c9c9c9"/>
         </svg>
     );
@@ -66,7 +66,7 @@ export const InstagramSvg = () =>{
 
 export const LogoSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="29.614" height="27.761" viewBox="0 0 29.614 27.761">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 29.614 27.761">
             <path id="Icon_metro-traffic-cone" data-name="Icon metro-traffic-cone" d="M17.995,20.172c3.686,0,6.774-1.252,6.961-2.889-.549-1.536-1.148-3.214-1.735-4.862-.407,1.174-2.661,2.007-5.226,2.007s-4.819-.833-5.226-2.007l-1.734,4.862c.187,1.637,3.273,2.889,6.959,2.889Zm0-10.342c1.734,0,3.342-.537,3.814-1.371C21.16,6.636,20.6,5.07,20.25,4.084c-.234-.659-1.3-1-2.255-1s-2.021.341-2.255,1q-.78,2.184-1.559,4.373C14.653,9.293,16.263,9.83,18,9.83ZM31.537,21.7l-5.792-2.335.668,1.862c-.034,1.973-3.862,3.546-8.419,3.546S9.609,23.2,9.576,21.222l.668-1.862L4.452,21.7c-1.624.654-1.694,1.865-.151,2.69l10.893,5.841a6.648,6.648,0,0,0,5.6,0L31.69,24.386c1.541-.825,1.471-2.036-.153-2.69Z" transform="translate(-3.188 -3.085)" fill="#131790"/>
         </svg>
     );
@@ -88,26 +88,26 @@ export const MapSvg = () =>{
 
 export const MountainSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="2078.733" height="840.75" viewBox="0 0 2078.733 840.75">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1384.068" height="561.424" viewBox="0 0 1384.068 561.424">
             <defs>
                 <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                <stop offset="0" stop-color="#fff"/>
-                <stop offset="0.003" stop-color="#5652b4"/>
-                <stop offset="1" stop-color="#7572c2"/>
-                <stop offset="1" stop-color="#5652b4"/>
+                <stop offset="0" stopColor="#fff"/>
+                <stop offset="0.003" stopColor="#5652B4"/>
+                <stop offset="1" stopColor="#7572C2"/>
+                <stop offset="1" stopColor="#5652B4"/>
                 </linearGradient>
                 <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                <stop offset="0" stop-color="#fff"/>
-                <stop offset="0.003" stop-color="#5652b4"/>
-                <stop offset="0.526" stop-color="#7a77ca"/>
-                <stop offset="1" stop-color="#7572c2"/>
-                <stop offset="1" stop-color="#5652b4"/>
+                <stop offset="0" stopColor="#fff"/>
+                <stop offset="0.003" stopColor="#5652B4"/>
+                <stop offset="0.526" stopColor="#7A77CA"/>
+                <stop offset="1" stopColor="#7572C2"/>
+                <stop offset="1" stopColor="#5652B4"/>
                 </linearGradient>
             </defs>
-            <g id="Group_34" data-name="Group 34" transform="translate(413.267 -207.5)">
-                <path id="Path_5" data-name="Path 5" d="M1188.924,810.5,554.933,1371H1754.4Z" transform="translate(-968.2 -603)" fill="url(#linear-gradient)"/>
-                <path id="Path_6" data-name="Path 6" d="M1188.924,810.5,554.933,1371H1754.4Z" transform="translate(-378.933 -368)" fill="url(#linear-gradient-2)"/>
-                <path id="Path_7" data-name="Path 7" d="M1188.924,810.5,554.933,1371H1754.4Z" transform="translate(-88.933 -322.75)" fill="url(#linear-gradient-2)"/>
+            <g id="Group_34" data-name="Group 34" transform="translate(11.278 -207.5)">
+                <path id="Path_5" data-name="Path 5" d="M1188.924,810.5l-232,250.93V1371H1754.4Z" transform="translate(-968.2 -603)" fill="url(#linear-gradient)"/>
+                <path id="Path_6" data-name="Path 6" d="M1188.924,810.5l-387.1,326.424h734.135Z" transform="translate(-378.933 -368)" fill="url(#linear-gradient-2)"/>
+                <path id="Path_7" data-name="Path 7" d="M1188.924,810.5,840.735,1091.675h620.989Z" transform="translate(-88.933 -322.75)" fill="url(#linear-gradient-2)"/>
             </g>
         </svg>
     );
@@ -136,7 +136,7 @@ export const SlnLightSvg = () =>{
 
 export const TestSvg = () =>{
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="21" viewBox="0 0 17 21">
             <path id="Icon_feather-play" data-name="Icon feather-play" d="M7.5,4.5l14,9-14,9Z" transform="translate(-6 -3)" fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3"/>
         </svg>
     );
@@ -171,12 +171,88 @@ export const WlcmBgSvg = () =>{
         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1366" height="707" viewBox="0 0 1366 707">
             <defs>
                 <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                <stop offset="0" stop-color="#5652b4"/>
-                <stop offset="1" stop-color="#9794ce"/>
-                <stop offset="1" stop-color="#2b295a"/>
+                <stop offset="0" stopColor="#5652b4"/>
+                <stop offset="1" stopColor="#9794ce"/>
+                <stop offset="1" stopColor="#2b295a"/>
                 </linearGradient>
             </defs>
             <rect id="Rectangle_2" data-name="Rectangle 2" width="1366" height="707" fill="url(#linear-gradient)"/>
+        </svg>
+    );
+}
+export const LineSvg = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="0.5" height="28" viewBox="0 0 0.5 28">
+            <line id="Line_4" data-name="Line 4" y2="28" transform="translate(0.25)" fill="none" stroke="#bababa" strokeWidth="0.5"/>
+        </svg>
+    );
+}
+
+export const ColumnDividor = () => {
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="564" viewBox="0 0 48 564">
+            <g id="Group_30" data-name="Group 30" transform="translate(-659 -960)">
+                <rect id="Rectangle_5" data-name="Rectangle 5" width="564" height="5" transform="translate(686 960) rotate(90)" fill="#e3e3e3"/>
+                <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(659 1214)" fill="#f5f5f5" stroke="#ccc" strokeWidth="3">
+                <circle cx="24" cy="24" r="24" stroke="none"/>
+                <circle cx="24" cy="24" r="22.5" fill="none"/>
+                </g>
+                <rect id="Rectangle_12" data-name="Rectangle 12" width="262" height="5" transform="translate(686 1262) rotate(90)" fill="#7470d1"/>
+            </g>
+        </svg>
+    );
+}
+
+export const TestSteps = () => {
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="1020" height="45" viewBox="0 0 1020 52">
+            <g id="Group_10" data-name="Group 10" transform="translate(-190 -230)">
+                <g id="Group_4" data-name="Group 4" transform="translate(157 13)" opacity="0.3">
+                <text id="_1" data-name="1" transform="translate(53 250)" fill="#bababa" fontSize="18" fontFamily="Roboto-Bold, Roboto" fontWeight="700"><tspan x="0" y="0">1</tspan></text>
+                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(38 224)" fill="none" stroke="#bababa" strokeWidth="4">
+                    <circle cx="20" cy="20" r="20" stroke="none"/>
+                    <circle cx="20" cy="20" r="18" fill="none"/>
+                </g>
+                <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(33 219)" fill="none" stroke="#bababa" strokeWidth="4">
+                    <circle cx="25" cy="25" r="25" stroke="none"/>
+                    <circle cx="25" cy="25" r="23" fill="none"/>
+                </g>
+                </g>
+                <g id="Group_5" data-name="Group 5" transform="translate(642 13)">
+                <text id="_2" data-name="2" transform="translate(53 250)" fill="#dcdcdc" fontSize="18" fontFamily="Roboto-Bold, Roboto" fontWeight="700"><tspan x="0" y="0">2</tspan></text>
+                <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(38 224)" fill="none" stroke="#dcdcdc" strokeWidth="4">
+                    <circle cx="20" cy="20" r="20" stroke="none"/>
+                    <circle cx="20" cy="20" r="18" fill="none"/>
+                </g>
+                <g id="Path_3" data-name="Path 3" transform="translate(33 219)" fill="none">
+                    <path d="M25,0A25,25,0,0,1,41.485,43.8,24.724,24.724,0,0,1,25,50,25,25,0,0,1,25,0Z" stroke="none"/>
+                    <path d="M 25 4 C 19.39069938659668 4 14.11713027954102 6.184379577636719 10.15076065063477 10.15076065063477 C 6.184379577636719 14.11713027954102 4 19.39069938659668 4 25 C 4 30.60930061340332 6.184379577636719 35.88286972045898 10.15076065063477 39.84923934936523 C 14.11713027954102 43.81562042236328 19.39069938659668 46 25 46 C 27.6319694519043 46 30.19935035705566 45.52402114868164 32.63084030151367 44.58528137207031 C 34.94797897338867 43.69068908691406 37.0272102355957 42.4240608215332 38.81237030029297 40.81914901733398 C 43.44739151000977 36.65663909912109 46 31.03861999511719 46 25 C 46 19.39069938659668 43.81562042236328 14.11713027954102 39.84923934936523 10.15076065063477 C 35.88286972045898 6.184379577636719 30.60930061340332 4 25 4 M 25 0 C 38.80712127685547 0 50 11.19287872314453 50 25 C 50 32.38681030273438 46.79631805419922 39.02536010742188 41.48503875732422 43.79520034790039 C 37.27536010742188 47.57981872558594 31.42030906677246 50 25 50 C 11.19287872314453 50 0 38.80712127685547 0 25 C 0 11.19287872314453 11.19287872314453 0 25 0 Z" stroke="none" fill="#dcdcdc"/>
+                </g>
+                </g>
+                <line id="Line_7" data-name="Line 7" x2="435" transform="translate(240 257)" fill="none" stroke="#ccc" strokeWidth="0.5"/>
+                <rect id="Rectangle_5" data-name="Rectangle 5" width="96" height="5" transform="translate(579 255)" fill="#dcdcdc"/>
+                <path id="Path_4" data-name="Path 4" d="M0,0H435" transform="translate(725 257)" fill="none" stroke="#1e90ff" strokeWidth="0.5"/>
+                <rect id="Rectangle_6" data-name="Rectangle 6" width="96" height="5" transform="translate(725 255)" fill="#1e90ff"/>
+                <g id="Group_9" data-name="Group 9" transform="translate(1127 11)">
+                <text id="_3" data-name="3" transform="translate(53 250)" fill="#1e90ff" fontSize="18" fontFamily="Roboto-Bold, Roboto" fontWeight="700"><tspan x="0" y="0">3</tspan></text>
+                <g id="Ellipse_1-3" data-name="Ellipse 1" transform="translate(38 224)" fill="none" stroke="#2780d6" strokeWidth="4">
+                    <circle cx="20" cy="20" r="20" stroke="none"/>
+                    <circle cx="20" cy="20" r="18" fill="none"/>
+                </g>
+                <g id="Path_3-2" data-name="Path 3" transform="translate(33 219)" fill="none">
+                    <path d="M25,0A25,25,0,0,1,41.485,43.8,24.724,24.724,0,0,1,25,50,25,25,0,0,1,25,0Z" stroke="none"/>
+                    <path d="M 25 4 C 19.39069938659668 4 14.11713027954102 6.184379577636719 10.15076065063477 10.15076065063477 C 6.184379577636719 14.11713027954102 4 19.39069938659668 4 25 C 4 30.60930061340332 6.184379577636719 35.88286972045898 10.15076065063477 39.84923934936523 C 14.11713027954102 43.81562042236328 19.39069938659668 46 25 46 C 27.6319694519043 46 30.19935035705566 45.52402114868164 32.63084030151367 44.58528137207031 C 34.94797897338867 43.69068908691406 37.0272102355957 42.4240608215332 38.81237030029297 40.81914901733398 C 43.44739151000977 36.65663909912109 46 31.03861999511719 46 25 C 46 19.39069938659668 43.81562042236328 14.11713027954102 39.84923934936523 10.15076065063477 C 35.88286972045898 6.184379577636719 30.60930061340332 4 25 4 M 25 0 C 38.80712127685547 0 50 11.19287872314453 50 25 C 50 32.38681030273438 46.79631805419922 39.02536010742188 41.48503875732422 43.79520034790039 C 37.27536010742188 47.57981872558594 31.42030906677246 50 25 50 C 11.19287872314453 50 0 38.80712127685547 0 25 C 0 11.19287872314453 11.19287872314453 0 25 0 Z" stroke="none" fill="#1e90ff"/>
+                </g>
+                </g>
+            </g>
+        </svg>
+    );
+}
+
+export const HrSvg = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="1" viewBox="0 0 110 1">
+            <rect id="Rectangle_8" data-name="Rectangle 8" width="110" height="1" fill="#ccc"/>
         </svg>
     );
 }

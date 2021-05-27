@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-do
 
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import LoadingSpinner from './shared/components/UIElements/LoadingSpinner';
+import HomePage from './pages/home';
+import Feedback from './pages/feedback';
+import Test from './pages/test';
 
 const App = () => {
 
@@ -11,13 +14,13 @@ const App = () => {
   routes = (
     <Switch>
       <Route path="/" exact>
-        <h1>Welcome to signcamp</h1>
+        <HomePage />
       </Route>
       <Route path="/test" exact>
-        <h1>How to use the app</h1>
+        <Test />
       </Route>
       <Route path="/feedback" exact>
-        <h1>Give us your feedback</h1>
+        <Feedback />
       </Route>
       <Redirect to="/" />
     </Switch>

@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 import Button from './Button';
+import { UploadSvg } from '../../../assets/svgs/svgs';
 import './ImageUpload.css';
 
 const ImageUpload = props => {
@@ -51,11 +52,16 @@ const ImageUpload = props => {
                 onChange={pickedHandler}
             />
             <div className={`image-upload ${props.center && 'center'}`}>
-                <div className="image-upload__preview">
+                <div className="image-upload__preview" style={!previewUrl ? {width: '100%'} : {width: '13rem', margin: '1rem auto'}}>
                     {previewUrl && <img src={previewUrl} alt="Preview" />}
-                    {!previewUrl && <p>Please pick an image.</p>}
+                    {!previewUrl && <React.Fragment>
+                        <div onClick={pickImageHandler}>
+                            <UploadSvg />
+                        </div>
+                        <p style={{whiteSpace: 'nowrap', fontSize: '15px'}}>Drag and drop a photo or <span style={{color: '#1e90ff', cursor: 'pointer'}} onClick={pickImageHandler}>Upload</span> it.</p>
+                    </React.Fragment>}
                 </div>
-                <Button type="button" onClick={pickImageHandler}>PICK IMAGE</Button>
+                {previewUrl && <Button grayBg type="button" onClick={pickImageHandler}>Upload new image</Button> }
             </div>
             {!isValid && <p>{props.errorText}</p>}
         </div>
