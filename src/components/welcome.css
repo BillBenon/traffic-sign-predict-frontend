@@ -1,75 +1,84 @@
 .main-wlcm {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .mount-container {
-    width: 100%;
-    background: linear-gradient(#5652b4, #9794ce);
+  width: 100%;
+  background: linear-gradient(#5652b4, #9794ce);
 }
-.mountRange *{
-    width: 100%;
+.mountRange * {
+  width: 100%;
 }
 
 .text {
-    width: 27%;
-    margin: auto;
-    position: relative;
-    top: 10rem;
-    color: white;
-    font-family: 'Roboto';
-    text-align: center;
-    z-index: 2;
+  width: 27%;
+  margin: auto;
+  position: relative;
+  top: 10rem;
+  color: white;
+  font-family: "Roboto";
+  text-align: center;
+  z-index: 2;
 }
 .mountRange {
-    z-index: 1;
-    position: relative;
-    margin-top: -7rem;
+  z-index: 1;
+  position: relative;
+  margin-top: -7rem;
 }
 
 .prob-soln {
-    font-family: 'Roboto';
-    font-size: 0.9rem;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    z-index: 3;
-    margin-top: -0.7rem;
-    padding: 85px 65px 76px;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 3;
+  margin-top: -0.7rem;
+  padding: 85px 65px 76px;
 }
 
 .prob-soln .card {
-    width: 31%;
+  width: 31%;
 }
 @media only screen and (max-width: 565px) {
-    .prob-soln .card {
-        width: 90%;
-    }
+  .prob-soln .card {
+    width: 90%;
+  }
 }
 
 .prob-soln h1 {
-    width: 60%;
+  width: 60%;
 }
 .prob-soln--center h1 {
-    margin: 0 auto 1rem;
+  margin: 0 auto 1rem;
 }
 
 .prob-soln--center {
-    text-align: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 765px) {
-    .separator {
-        display: none;
-    }
-    .prob-soln {
-        flex-direction: column;
-        border: 2px solid red;
-        padding: 0;
-    }
-    .prob-soln *{
-        width: 100%;
-        position: relative;
-        left: 0;
-    }
+  .separator {
+    display: none;
+  }
+  .prob-soln {
+    flex-direction: column;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prob-soln * {
+    width: 100%;
+    position: relative;
+  }
+  .prob-soln .card {
+    width: 85%;
+    margin: 10px auto;
+  }
+
+  .text {
+    width: 90%;
+  }
 }

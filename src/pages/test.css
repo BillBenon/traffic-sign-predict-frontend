@@ -1,50 +1,56 @@
 .main-test_page {
-    position: relative;
-    top: 2.25rem;
-    text-align: center;
-    font-family: 'Roboto';
+  position: relative;
+  top: 2.25rem;
+  text-align: center;
+  font-family: "Roboto";
 }
-.main-test_page>* {
-    display: block;
-    position: relative;
-    margin: 1rem auto;
+.main-test_page > * {
+  display: block;
+  position: relative;
+  margin: 1rem auto;
 }
 
 .app-usage {
-    display: flex;
-    font-size: 15px;
-    width: 90%;
-    justify-content: space-between;
+  display: flex;
+  font-size: 15px;
+  width: 90%;
+  justify-content: space-between;
 }
 .app-usage small {
-    background-color: #ccc;
-    color: grey;
-    font-size: 15px;
+  background-color: #ccc;
+  color: grey;
+  font-size: 15px;
 }
 .app-usage p {
-    width: 30%;
+  width: 30%;
 }
 
 .results {
-    text-align: left;
-    width: 50%;
-    margin: auto;
+  text-align: left;
+  width: 50%;
+  margin: auto;
 }
 .results span {
-    color: #5652B4;
+  color: #5652b4;
 }
 
 @media only screen and (max-width: 565px) {
-    .steps {
-        display: none;
-    }
-    .app-usage {
-        flex-direction: column;
-    }
-    .app-usage p {
-        width: 90%;
-    }
-    .results {
-        width: 100%;
-    }
+  .steps {
+    display: none;
+  }
+  .app-usage {
+    flex-direction: column;
+  }
+  .app-usage p {
+    width: 90%;
+  }
+  .results {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .steps {
+    display: none;
+  }
 }
